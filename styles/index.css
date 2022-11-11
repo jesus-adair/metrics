@@ -1,8 +1,18 @@
 body {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
 
 }
+
+h1 {
+    font-size: 80px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
 .navbar {
     border-bottom: 5px solid purple; 
     display: flex;
@@ -38,7 +48,20 @@ margin-left: 20px;
 .navbar__link{
 text-decoration: none;
 color: white;
-font-family: Arial, Helvetica, sans-serif;
 font-size: 20px;
 font-weight: bold;
+}
+
+.description {
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+
+}
+
+.content{
+    max-width: 1200px;
+    margin:auto;
+    margin-top: 50px;
+    padding: 10px;
 }

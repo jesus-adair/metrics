@@ -1,5 +1,27 @@
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #111111;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #666666; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+
 body {
-    background-image: url("../images/gradient-001.png");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
@@ -11,7 +33,7 @@ body {
 h1 {
     font-size: 80px;
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 60px;
     text-align: center;
     background: -webkit-linear-gradient(#fff, hsla(0,0%,100%,.6));
     -webkit-background-clip: text;
@@ -19,7 +41,21 @@ h1 {
 
 }
 
+.bg-1{
+
+    background-image: url("../images/gradient-003.png");
+
+
+}
+
+.bg-2{
+    
+    background-image: url("../images/gradient-001.png");
+
+}
+
 .navbar {
+    padding-top: 30px;
     background-color: black;
 }
 
@@ -57,9 +93,14 @@ margin-left: 20px;
 
 .navbar__link{
 text-decoration: none;
-color: white;
+color: #cccccc;
 font-size: 20px;
 font-weight: bold;
+}
+
+.navbar__link:hover {
+    color:white;
+
 }
 
 .description {
@@ -86,4 +127,11 @@ font-weight: bold;
 .graph{
     /* offset-x | offset-y | blur-radius | color */
     box-shadow: 0px 0px 35px #181818;
+    border-radius: 10px;
+}
+
+.shadow{
+    box-shadow: 0px 0px 35px #181818;
+
+
 }

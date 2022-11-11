@@ -15,9 +15,14 @@ h1 {
 
 .navbar {
     border-bottom: 5px solid purple; 
+    background-color: black;
+}
+
+.navbar__box {
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .navbar__logo {

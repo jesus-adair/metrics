@@ -124,10 +124,11 @@ font-weight: bold;
     color:blue;
 }
 
-.graph{
+.grafica-1{
     /* offset-x | offset-y | blur-radius | color */
     box-shadow: 0px 0px 35px #181818;
     border-radius: 10px;
+
 }
 
 .shadow{
